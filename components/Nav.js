@@ -8,7 +8,7 @@ export default function Nav() {
       <div className="flex justify-between items-center w-full h-full px-2 2-xl:px-16">
         <a href="/">
           <Image
-            src="/cLogo.png"
+            src="/Portfolio/public/cLogo.png"
             alt="logo"
             width="75"
             height="75"
