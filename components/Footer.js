@@ -23,12 +23,12 @@ export default function Footer() {
       /> */}
       <ul className="flex flex-wrap items-center justify-start text-xl">
         <li className="px-3 hover:scale-125">
-          <a href="https://github.com/wrightw404">
+          <a target={"_blank"} href="https://github.com/wrightw404">
             <Image src={git} width='50' height='50' />
           </a>
         </li>
         <li className="px-3 hover:scale-125">
-          <a href="https://www.linkedin.com/in/williamwallacewright/">
+          <a target={"_blank"} href="https://www.linkedin.com/in/williamwallacewright/">
             <Image src={linked} width='50' height='50'/>
           </a>
         </li>

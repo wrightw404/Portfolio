@@ -25,8 +25,8 @@ export default function About() {
             <section className="text-electric-blue px-10">
             <h4 className="tracking-widest font-bolder underline text-2xl">Education</h4>
             <ol className="text-cool-grey py-1">
-                <li className="py-3"><p className="font-bold"> <a className="text-dark-blue">Michigan State University,</a></p><a className="hover:text-electric-blue hover:font-bold hover:underline pl-4" href='https://xa.cal.msu.edu/'>BA Experience Architecture</a></li>
-                <li><a className="hover:text-electric-blue hover:font-bold hover:underline" href='https://bootcamp.extension.ucsd.edu/coding/'>UCSD Extended Studies: Coding Bootcamp</a></li>
+                <li className="py-3"><p className="font-bold"> <a className="text-dark-blue">Michigan State University,</a></p><a className="hover:text-electric-blue hover:font-bold hover:underline pl-4" target={"_blank"} href='https://xa.cal.msu.edu/'>BA Experience Architecture</a></li>
+                <li><a className="hover:text-electric-blue hover:font-bold hover:underline" target={"_blank"} href='https://bootcamp.extension.ucsd.edu/coding/'>UCSD Extended Studies: Coding Bootcamp</a></li>
             </ol>
             <h4 className="tracking-widest font-bolder underline py-1 pt-4 text-2xl">Work</h4>
             <ol className="text-cool-grey">
