@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import cLogo from "../public/cLogo.png";
+import cLogo from "../public/assets/logos/cLogo.png";
 
 export default function Nav() {
   return (
