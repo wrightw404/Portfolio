@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import cLogo from "../public/cLogo.png";
 
 export default function Nav() {
   return (
@@ -8,7 +9,7 @@ export default function Nav() {
       <div className="flex justify-between items-center w-full h-full px-2 2-xl:px-16">
         <a href="/">
           <Image
-            src="../public/cLogo.png"
+            src={cLogo}
             alt="logo"
             width="75"
             height="75"
