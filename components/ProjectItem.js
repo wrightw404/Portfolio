@@ -17,7 +17,7 @@ const ProjectItem = ({title, backgroundImg, skills, projectUrl}) => {
               <p className="pb-4 pt-2 text-dark-grey text-center">
                 {skills}
               </p>
-              <Link href={projectUrl}>
+              <Link target={"_blank"} href={projectUrl}>
                 <p className="text-center py-3 px-3 rounded-lg bg-[#E69597] text-dark-grey font-bold text-lg cursor-pointer hover:scale-110">
                   Click Here To Check It Out!
                 </p>
