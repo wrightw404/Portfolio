@@ -29,6 +29,7 @@ export default function About() {
                 <li><a className="hover:text-electric-blue hover:font-bold hover:underline" target={"_blank"} href='https://bootcamp.extension.ucsd.edu/coding/'>UCSD Extended Studies: Coding Bootcamp</a></li>
             </ol>
             <h4 className="tracking-widest font-bolder underline py-1 pt-4 text-2xl">Work</h4>
+            <button className="rounded-full bg-electric-blue "><a className="text-black text-xs px-2 hover:font-bold" target={"_blank"} href="assets/Resume_4-17.pdf">Download PDF resume</a></button>
             <ol className="text-cool-grey">
               <h3 className="font-bold pt-3 text-dark-blue">Water Grill; <a className="text-cool-grey text-xs">San Diego, CA</a> </h3>
               <h4 className="pl-4">Role: Sushi Chef</h4>
@@ -78,6 +79,7 @@ export default function About() {
               <h4 className="pl-4">Role: Image Consultant</h4>
               <p className="py-2">Responsible for coordinating the redevelopment of the Foundation's website to facilitate the recent expansion of entities to include The Children's Hospital Westmead, Bear Cottage, NETS and Kids Research in conjunction with a Digital Producer</p>
           </ol>
+          
           </section>
           <section>
             <div className="text-center text-3xl text-dark-blue py-10">
