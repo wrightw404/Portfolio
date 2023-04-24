@@ -82,7 +82,7 @@ export default function About() {
               </p>
           </ol>
           <div className="text-center pt-5">
-          <button className="rounded-full bg-electric-blue"><a className="text-black text-xs px-2 hover:font-bold hover:text-md" target={"_blank"} href="assets/Resume.pdf">Download PDF resume</a></button>
+          <button className="rounded-full bg-electric-blue"><a className="text-black text-xs px-2 hover:font-bold hover:text-md" target={"_blank"} href="assets/2023.04ResumePDF.pdf">Download PDF resume</a></button>
           </div>
           
           </section>
