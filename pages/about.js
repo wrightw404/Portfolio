@@ -30,8 +30,7 @@ export default function About() {
             </ol>
             <h4 className="tracking-widest font-bolder underline py-1 pt-0 text-2xl">Work</h4>
             <ol className="text-cool-grey">
-              <h3 className="font-bold pt-3 text-dark-blue">Water Grill; <a className="text-cool-grey text-xs">San Diego, CA</a> </h3>
-              <h4 className="pl-4">Role: Sushi Chef</h4>
+              <h3 className="font-bold pt-3 text-dark-blue">Sushi Chef <a className="text-cool-grey text-xs">Water Grill; San Diego, CA</a> </h3>
               <p className="py-2">Forecast daily demand and implement orders to maintain high standards and consistency in a fast-paced environment to ensure customer satisfaction.</p>
             </ol>
             
@@ -61,32 +60,47 @@ export default function About() {
         </div>
 
       </div>
-      <div className="bg-black bg-cover bg-center h-screen">
+      <div className="bg-black bg-cover bg-center h-full min-h-screen">
         <section className="text-cool-grey px-10">
           <ol>
-          <h3 className="font-bold pt-3 text-dark-blue">Nobu Chicago; <a className="text-cool-grey text-xs">Chicago, IL</a> </h3>
-              <h4 className="pl-4">Role: Jr. Sous Chef</h4>
+          <h3 className="font-bold pt-0 text-dark-blue">Jr. Sous Chef <a className="text-cool-grey text-xs">Nobu Chicago; Chicago, IL</a> </h3>
               <p className="py-2">Worked in collaboration with Executive Chef, Chef de Cuisine, and Sous Chefs to oversee staff and ensure the quality of final products. Communicated issues from staff to Sous Chefs and created adaptive solutions that would mitigate those issues. 
               </p>
           </ol>
           <ol>
-          <h3 className="font-bold pt-3 text-dark-blue">Sydney Children's Hospitals Foundation; <a className="text-cool-grey text-xs">Sydney, Australia</a> </h3>
-              <h4 className="pl-4">Role: Digital Intern</h4>
-              <p className="py-2">Responsible for coordinating the redevelopment of the Foundations website to facilitate the recent expansion of entities in conjunction with a Digital Producer. Conducted usability testing to gauge web traffic across the different entities sites in order to build prototypes that would incorporate a user-friendly interface. Worked with Digital Producers to implement new features that would be fully compatible with the current sites back-end software. </p>
+          <h3 className="font-bold pt-3 text-dark-blue">Digital Intern (UX) <a className="text-cool-grey text-xs">Sydney Children's Hospitals Foundation; Sydney, Australia</a> </h3>
+              <h4 className="py-1">Facilitated and coordinated the foundations recent expansion and curated the process from conception to publishing.</h4>
+              <ul className="list-disc pl-4">
+                <li>Designed, coded and implemented the redevelopment of the Foundations website in coordination with the Strategic Programs Director and Digital Product Manager that highlighted the benefits of the foundations recent expansion and importance of continued fundraising.</li>
+                <li>Collaborated with Digital Producers across six different corporations to conduct usability testing of their respective websites.</li>
+                <li>Identified obstacles in current web flow and applied UX methods to build mockups and prototypes that would implement efficient solutions to enhance user experience.</li>
+                <li>Showcased weekly updates to board members and validated that the current updates work to streamline business processes.</li>
+              </ul>
           </ol>
           <ol>
-          <h3 className="font-bold pt-3 text-dark-blue">Barrick Enterprises; <a className="text-cool-grey text-xs">Royal Oak, MI</a> </h3>
-              <h4 className="pl-4">Role: Image Consultant</h4>
-              <p className="py-2">Built relationships with dealers to improve and maintain interior and exterior spaces. Executed necessary steps to successfully 
-              pass all brand mystery shops and enhance consumer experience.
-              </p>
+          <h3 className="font-bold pt-5 text-dark-blue">CSR / Assistant Manager <a className="text-cool-grey text-xs">Shore Thing Market; IRA, MI</a></h3>
+              <ul className="list-disc pl-4 pt-2">
+                <li>Co-managed the companys finances, paperwork, payroll and shift schedules that resulted in balanced and accurate books.</li>
+                <li>Interviewed, hired, trained and led 7 employees across the company while balancing team cohesiveness.</li>
+                <li>Forecasted seasonal demand of each line item to ensure optimal in-stock quantities.</li>
+                <li>Built and managed vendor relationships, promotional programs, and instituted scan data resulting in higher profit margins and more value for the customer.</li>
+                <li>Cultivated customer loyalty and return business through building trusted relationships, understanding the local buying behaviors and efficiently resolving customer relations opportunities.</li>
+              </ul>
+          </ol>
+          <ol>
+          <h3 className="font-bold pt-5 text-dark-blue">Image Consultant <a className="text-cool-grey text-xs">Barrick Enterprises; Royal Oak, MI</a></h3>
+          <ul className="list-disc pl-4 pt-2">
+                <li>Participated as a team member responsible for resolving customer, brand and mystery shopper feedback that prioritized the most impact while balancing the time to implement the change with cost.</li>
+                <li>Maximized revenue opportunities through individually designed plans for each contracted account. Consulted with the dealers on-site on how best to fulfill the image requirements while maximizing score improvement across all brands that Barrick represents to drive desired consumer shopping behavior while satisfying brand requirements.</li>
+                <li>Project managed image enhancements through scheduling vendors, ordering materials, helping with installation and ensuring timelines were met within budget</li>
+              </ul>
           </ol>
           <div className="text-center pt-5">
           <button className="rounded-full bg-electric-blue"><a className="text-black text-xs px-2 hover:font-bold hover:text-md" target={"_blank"} href="assets/2023.04ResumePDF.pdf">Download PDF resume</a></button>
           </div>
           
           </section>
-          <section>
+          <section className="bg-black bg-cover bg-center h-full min-h-screen">
             <div className="text-center text-3xl text-dark-blue py-10">
               <h4 className="pt-10 font-bold tracking-widest">Extracurriculars & Volunteer Work</h4>
             </div>
