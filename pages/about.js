@@ -19,9 +19,13 @@ export default function About() {
           
         </div>
       </section>
-      <div className="grid md:grid-cols-3 pt-20 pr-10">
-        <div className="col-span-2 bg-black">
-            <h1 className="text-dark-blue text-3xl text-center font-bold tracking-widest py-10">Experience</h1>
+      <div className="flex items-stretch">
+        <div className="bg-black">
+            <h1 className="text-dark-blue text-3xl text-center font-bold tracking-widest pt-10 pb-5">Experience</h1>
+            <div className="text-center pb-2">
+              <button className="rounded-full bg-electric-blue"><a className="text-black text-xs px-2 hover:font-bold hover:text-md" target={"_blank"} href="assets/2023.04ResumePDF.pdf">Download PDF resume</a></button>
+            </div>
+            
             <section className="text-electric-blue px-10">
             <h4 className="tracking-widest font-bolder underline text-2xl">Education</h4>
             <ol className="text-cool-grey py-1">
@@ -38,7 +42,7 @@ export default function About() {
         </div>
         <div className="relative bg-black">
         <div className='absolute inset-0 bg-gradient-30 from-[#972729] to-[#66fcf1] rounded-lg blur-2xl opacity-30'></div>
-        <h1 className="relative text-dark-blue text-3xl py-10 px-32 font-bold tracking-widest">Skills</h1>
+        <h1 className="relative text-dark-blue text-3xl pt-10 pb-6 px-32 font-bold tracking-widest">Skills</h1>
             <div className="grid md:grid-cols-2 items-center justify-center pl-20 py-2">
             <ul className="text-cool-grey px-8">
                 <li><Image src={node} width='25' height='25' className="py-2"></Image>Node JS</li>
@@ -95,9 +99,6 @@ export default function About() {
                 <li>Project managed image enhancements through scheduling vendors, ordering materials, helping with installation and ensuring timelines were met within budget</li>
               </ul>
           </ol>
-          <div className="text-center pt-5">
-          <button className="rounded-full bg-electric-blue"><a className="text-black text-xs px-2 hover:font-bold hover:text-md" target={"_blank"} href="assets/2023.04ResumePDF.pdf">Download PDF resume</a></button>
-          </div>
           
           </section>
           <section className="bg-black bg-cover bg-center h-full min-h-screen">
