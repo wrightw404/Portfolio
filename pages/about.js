@@ -27,12 +27,12 @@ export default function About() {
             </div>
             
             <section className="text-electric-blue px-10">
-            <h4 className="tracking-widest font-bolder underline text-2xl">Education</h4>
+            <h4 className="tracking-widest font-bold text-2xl">Education</h4>
             <ol className="text-cool-grey py-1">
                 <li className="py-3"><p className="font-bold"> <a className="text-dark-blue">Michigan State University,</a></p><a className="hover:text-electric-blue hover:font-bold hover:underline pl-4" target={"_blank"} href='https://xa.cal.msu.edu/'>B.A. Experience Architecture</a></li>
                 <li className="py-3"><p className="font-bold"> <a className="text-dark-blue">University of California at San Diego Extended Studies,</a></p><a className="hover:text-electric-blue hover:font-bold hover:underline pl-4" target={"_blank"} href='https://bootcamp.extension.ucsd.edu/coding/'>Full Stack Development Bootcamp</a></li>
             </ol>
-            <h4 className="tracking-widest font-bolder underline py-1 pt-0 text-2xl">Work</h4>
+            <h4 className="tracking-widest font-bold py-1 pt-0 text-2xl">Work</h4>
             <ol className="text-cool-grey">
               <h3 className="font-bold pt-3 text-dark-blue">Sushi Chef <a className="text-cool-grey text-xs">Water Grill; San Diego, CA</a> </h3>
               <p className="py-2">Forecast daily demand and implement orders to maintain high standards and consistency in a fast-paced environment to ensure customer satisfaction.</p>
@@ -101,9 +101,9 @@ export default function About() {
           </ol>
           
           </section>
-          <section className="bg-black bg-cover bg-center h-full min-h-screen">
-            <div className="text-center text-3xl text-dark-blue py-10">
-              <h4 className="pt-10 font-bold tracking-widest">Extracurriculars & Volunteer Work</h4>
+          <section className="bg-black bg-cover bg-center">
+            <div className="text-center text-3xl text-dark-blue py-0">
+              <h4 className="pt-10 font-bold tracking-widest text-electric-blue">Extracurriculars & Volunteer Work</h4>
             </div>
             <div className="text-center text-cool-grey">
               <ul>
