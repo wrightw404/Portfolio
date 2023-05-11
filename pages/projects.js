@@ -47,7 +47,7 @@ export default function Projects() {
           <ProjectItem 
           title='Been There Ate That' 
           backgroundImg={btat} 
-          skills='Collaborated with group members to create a social media esque website. Users can login and interact (post, comment, delete, edit) with other users. In this scenario it served as a food recommendation app, similar to yelp. Skills we used include React JS, Handlebars, Materialize CSS' 
+          skills='Collaborated with group members to create a social media esque website. Users can login and interact (post, comment, delete, edit) with other users. In this scenario it served as a food recommendation app, similar to Yelp. Skills we used include React JS, Handlebars, Materialize CSS' 
           projectUrl='/btat'
           />
 
