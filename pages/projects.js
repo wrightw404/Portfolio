@@ -7,6 +7,7 @@ import btat from "../public/assets/projects/beenthereatethat.png"
 import FE from "../public/assets/projects/fantastic-ecommerce.png"
 import schf from "../public/assets/projects/schf.png"
 import stm from "../public/assets/projects/stm.png"
+import recipe from "../public/assets/projects/recipe.png"
 
 import ProjectItem from "../components/ProjectItem";
 
@@ -57,6 +58,13 @@ export default function Projects() {
           backgroundImg={FE} 
           skills='Worked with a group to create a fully functioning e-commerce website. We were able process payments by using a third party, Stripe. We also incorporated Magic Link, which is a security measure that doesnt allow people to access sensitive information in the case of leak or hack. Skills we used include Next JS, Tailwind CSS, Magic Link, Stripe, Vercel' 
           projectUrl='https://fantastic-ecomerce.vercel.app/'
+          />
+
+          <ProjectItem 
+          title='Fantastic E-Commerce' 
+          backgroundImg={recipe} 
+          skills='Worked with a group to create functioning website that calls a third party API. We were able to successfully integrate the API and have it call up recipes based on what ingredient the user searches for.' 
+          projectUrl='https://courtneycaputo.github.io/recipe-finder/'
           />
 
           <ProjectItem 
