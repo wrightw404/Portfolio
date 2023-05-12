@@ -41,7 +41,7 @@ export default function Projects() {
           <ProjectItem 
           title='Shore Thing Market' 
           backgroundImg={stm} 
-          skills='Worked in collaboration with the store owner to really understand what they want to get out of having a website. Skills I used include Next JS, Tailwind CSS, and Vercel. STILL UNDER CONSTRUCTION.' 
+          skills='Worked in collaboration with the store owner to really understand what they want to get out of having a website. Skills I used include Next JS, Tailwind CSS, and Vercel. CURRENTLY REBUILDING WITH NEW OWNER.' 
           projectUrl='https://shorethingmarket.vercel.app/'
           />
 
