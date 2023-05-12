@@ -6,6 +6,7 @@ import fuelcure from "../public/assets/projects/newfuel.png";
 import btat from "../public/assets/projects/beenthereatethat.png"
 import FE from "../public/assets/projects/fantastic-ecommerce.png"
 import schf from "../public/assets/projects/schf.png"
+import stm from "../public/assets/projects/stm.png"
 
 import ProjectItem from "../components/ProjectItem";
 
@@ -38,6 +39,13 @@ export default function Projects() {
           />
 
           <ProjectItem 
+          title='Shore Thing Market' 
+          backgroundImg={stm} 
+          skills='Worked in collaboration with the store owner to really understand what they want to get out of having a website. Skills I used include Next JS, Tailwind CSS, and Vercel. STILL UNDER CONSTRUCTION.' 
+          projectUrl='https://shorethingmarket.vercel.app/'
+          />
+
+          <ProjectItem 
           title="Sydney Children's Hospitals Foundation" 
           backgroundImg={schf} 
           skills='Conducted usability testing to gauge web traffic across the different entities sites in order to build prototypes that would incorporate a user-friendly interface. Worked with Digital Producers to implement new features that would be fully compatible with the current sites back-end software.'
@@ -45,17 +53,17 @@ export default function Projects() {
           />
 
           <ProjectItem 
+          title='Fantastic E-Commerce' 
+          backgroundImg={FE} 
+          skills='Worked with a group to create a fully functioning e-commerce website. We were able process payments by using a third party, Stripe. We also incorporated Magic Link, which is a security measure that doesnt allow people to access sensitive information in the case of leak or hack. Skills we used include Next JS, Tailwind CSS, Magic Link, Stripe, Vercel' 
+          projectUrl='https://fantastic-ecomerce.vercel.app/'
+          />
+
+          <ProjectItem 
           title='Been There Ate That' 
           backgroundImg={btat} 
           skills='Collaborated with group members to create a social media esque website. Users can login and interact (post, comment, delete, edit) with other users. In this scenario it served as a food recommendation app, similar to Yelp. Skills we used include React JS, Handlebars, Materialize CSS' 
           projectUrl='/btat'
-          />
-
-          <ProjectItem 
-          title='Fantastic E-Commerce' 
-          backgroundImg={FE} 
-          skills='Worked with a group to create a fully functioning e-commerce website. We were able process payments by using a third party, Stripe. We also incorporated Magic Link, which is a security measure that doesnt allow people to access sensitive information in the case of leak or hack. Skills we used include Next JS, Tailwind CSS, Magic Link, Stripe' 
-          projectUrl='https://fantastic-ecomerce.vercel.app/'
           />
 
         </div>
