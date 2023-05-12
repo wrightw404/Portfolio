@@ -13,7 +13,7 @@ export default function Nav() {
             alt="logo"
             width="75"
             height="75"
-            className="hover:scale-125"
+            className="hover:scale-75"
           />
         </a>
         <ul className="flex flex-wrap items-center justify-end text-xl">
