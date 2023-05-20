@@ -6,7 +6,7 @@ const ProjectItem = ({title, backgroundImg, skills, projectUrl}) => {
     return (
         <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-electric-blue rounded-xl group hover:bg-gradient-135 from-[#E69597] to-[#B5D6D6]">
             <Image
-              className="rounded-xl group-hover:opacity-10"
+              className=" group-hover:opacity-10"
               src={backgroundImg}
               alt="/"
             />
@@ -18,7 +18,7 @@ const ProjectItem = ({title, backgroundImg, skills, projectUrl}) => {
                 {skills}
               </p>
               <Link target="blank" href={projectUrl}>
-                <p className="text-center py-2 px-3 rounded-lg bg-[#E69597] text-dark-grey font-bold text-lg cursor-pointer hover:scale-110">
+                <p className="text-center py-2 px-3 rounded-lg bg-[#E69597] text-dark-grey font-bold text-lg cursor-pointer hover:scale-75">
                   Click Here To Check It Out!
                 </p>
               </Link>

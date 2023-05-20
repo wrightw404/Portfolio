@@ -13,3 +13,7 @@
     @apply text-4xl sm:text-5xl md:text-6xl;
   }
 } */ 
+.carousel .slider-wrapper {
+  width: 100%;
+  height: 100%;
+}
