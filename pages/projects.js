@@ -116,7 +116,7 @@ export default function Projects() {
             </article>
         </div>
 
-        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+        <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article className="overflow-hidden rounded-lg shadow-lg">
                 <a target="blank" href="https://www.fuelforacure.org/">
                     <Image alt="Placeholder" className="block h-auto w-full hover:scale-75" src={fuelcure}></Image>
@@ -142,7 +142,7 @@ export default function Projects() {
         </div>
 
 
-        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+        <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article className="overflow-hidden rounded-lg shadow-lg">
                 <a href="#">
                     <Image alt="Placeholder" className="block h-auto w-full hover:scale-75" src={schf}></Image>
@@ -167,7 +167,7 @@ export default function Projects() {
             </article>
         </div>
 
-        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+        <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article className="overflow-hidden rounded-lg shadow-lg">
                 <a href="#">
                     <Image alt="Placeholder" className="block h-auto w-full hover:scale-75" src={FE}></Image>
@@ -192,7 +192,7 @@ export default function Projects() {
             </article>
         </div>
 
-        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+        <div classname="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article className="overflow-hidden rounded-lg shadow-lg">
                 <a href="#">
                     <Image alt="Placeholder" className="block h-auto w-full hover:scale-75" src={recipe}></Image>
@@ -217,7 +217,7 @@ export default function Projects() {
             </article>
         </div>
 
-        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+        <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article className="overflow-hidden rounded-lg shadow-lg">
                 <a href="#">
                     <Image alt="Placeholder" className="block h-auto w-full hover:scale-75" src={btat}></Image>
