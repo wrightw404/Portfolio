@@ -144,7 +144,7 @@ export default function Projects() {
 
         <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article className="overflow-hidden rounded-lg shadow-lg">
-                <a href="#">
+                <a target="blank" href="https://www.schf.org.au">
                     <Image alt="Placeholder" className="block h-auto w-full hover:scale-75" src={schf}></Image>
                 </a>
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -158,7 +158,7 @@ export default function Projects() {
                     </p>
                 </header>
                 <footer className="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a className="flex items-center no-underline hover:underline text-cool-grey" target="blank" href="https://www.schf.org.au">
+                    <a className="flex items-center text-cool-grey">
                         <p className="ml-2 text-sm text-center">
                         Conducted usability testing to gauge web traffic across the different entities sites in order to build prototypes that would incorporate a user-friendly interface. Worked with Digital Producers to implement new features that would be fully compatible with the current sites back-end software.
                         </p>
@@ -169,7 +169,7 @@ export default function Projects() {
 
         <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article className="overflow-hidden rounded-lg shadow-lg">
-                <a href="#">
+                <a target="blank" href="https://fantastic-ecomerce.vercel.app/">
                     <Image alt="Placeholder" className="block h-auto w-full hover:scale-75" src={FE}></Image>
                 </a>
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -183,7 +183,7 @@ export default function Projects() {
                     </p>
                 </header>
                 <footer className="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a className="flex items-center no-underline hover:underline text-cool-grey" target="blank" href="https://fantastic-ecomerce.vercel.app/">
+                    <a className="flex items-center text-cool-grey">
                         <p className="ml-2 text-sm text-center">
                         Worked with a group to create a fully functioning e-commerce website. We were able process payments by using a third party, Stripe. We also incorporated Magic Link, which is a security measure that doesnt allow people to access sensitive information in the case of leak or hack. Skills we used include Next JS, Tailwind CSS, Magic Link, Stripe, Vercel
                         </p>
@@ -192,9 +192,9 @@ export default function Projects() {
             </article>
         </div>
 
-        <div classname="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+        <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article className="overflow-hidden rounded-lg shadow-lg">
-                <a href="#">
+                <a target="blank" href="https://courtneycaputo.github.io/recipe-finder/">
                     <Image alt="Placeholder" className="block h-auto w-full hover:scale-75" src={recipe}></Image>
                 </a>
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -208,7 +208,7 @@ export default function Projects() {
                     </p>
                 </header>
                 <footer className="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a className="flex items-center no-underline hover:underline text-cool-grey" target="blank" href="https://courtneycaputo.github.io/recipe-finder/">
+                    <a className="flex items-center text-cool-grey">
                         <p className="ml-2 text-sm text-center">
                         Worked with a group to create functioning website that calls a third party API. We were able to successfully integrate the API and have it call up recipes based on what ingredient the user searches for
                         </p>
@@ -219,7 +219,7 @@ export default function Projects() {
 
         <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article className="overflow-hidden rounded-lg shadow-lg">
-                <a href="#">
+                <a target="blank" href="https://github.com/ddangeles/BeenThere-AteThat">
                     <Image alt="Placeholder" className="block h-auto w-full hover:scale-75" src={btat}></Image>
                 </a>
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -233,7 +233,7 @@ export default function Projects() {
                     </p>
                 </header>
                 <footer className="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a className="flex items-center no-underline hover:underline text-cool-grey" target="blank" href="https://github.com/ddangeles/BeenThere-AteThat">
+                    <a className="flex items-center text-cool-grey" >
                         <p className="ml-2 text-sm text-center">
                         Collaborated with group members to create a social media esque website. Users can login and interact (post, comment, delete, edit) with other users. In this scenario it served as a food recommendation app, similar to Yelp. Skills we used include React JS, Handlebars, Materialize CSS
                         </p>
