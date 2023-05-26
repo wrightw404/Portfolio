@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import cLogo from "../public/assets/logos/cLogo.png";
+import cLogo from "../public/assets/logos/cLogo.svg";
 
 export default function Nav() {
   return (
@@ -34,3 +34,4 @@ export default function Nav() {
     </div>
   );
 }
+
