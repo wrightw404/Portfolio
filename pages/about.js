@@ -23,7 +23,7 @@ export default function About() {
         <div className="bg-black">
             <h1 className="text-dark-blue text-3xl text-center font-bold tracking-widest pt-10 pb-5">Experience</h1>
             <div className="text-center pb-2">
-              <button className="rounded-full bg-electric-blue"><a className="text-black text-xs px-2 hover:font-bold hover:text-md" target={"_blank"} href="assets/2023.04ResumePDF.pdf">Download PDF resume</a></button>
+              <button className="rounded-full bg-electric-blue"><a className="text-black text-xs px-2 hover:font-bold hover:text-md" target={"_blank"} href="assets/06.2023Resume.pdf">Download PDF resume</a></button>
             </div>
             
             <section className="text-electric-blue px-10">
